@@ -11,14 +11,17 @@ Server URL, for any app that asks: `https://strategy.veeza.io/api/mcp`
 
 ## ChatGPT
 
-**Quickest:** **Plugins ▸ Add ▸ Add custom MCP server**
+**Plugins ▸ Add ▸ Add custom MCP server**
 1. Name: `Strategy Terminal`
 2. Server URL: `https://strategy.veeza.io/api/mcp`
 3. Authentication: **OAuth**
 4. Tick *I understand*, then **Create as a plugin**. Sign in when the browser opens.
 
-**From this marketplace:** **Plugins ▸ Add ▸ Add a marketplace**, enter `Ninga-2142/mcp`, then install
-**Strategy Terminal**.
+This adds the terminal to your ChatGPT account, so every chat can use it: mention **@Strategy Terminal**.
+
+Installing this marketplace's plugin in ChatGPT (**Plugins ▸ Add ▸ Add a marketplace**, `Ninga-2142/mcp`) connects
+only its **Codex** tasks, which run on your computer. A regular chat runs in OpenAI's cloud and sees only servers
+added as above; with the plugin alone, @Strategy Terminal in a chat finds no tools.
 
 ## Claude Code
 
