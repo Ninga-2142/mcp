@@ -1,0 +1,29 @@
+{
+  "name": "strategy-terminal",
+  "version": "1.0.0",
+  "description": "Write trading strategies, run backtests and books, and read market data in the Strategy Terminal.",
+  "author": {
+    "name": "Strategy Terminal"
+  },
+  "homepage": "https://strategy.veeza.io",
+  "repository": "https://github.com/Ninga-2142/mcp",
+  "keywords": ["trading", "backtesting", "strategies", "market data", "mcp"],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Strategy Terminal",
+    "shortDescription": "Strategies, backtests and market data",
+    "longDescription": "Write and revise trading strategies, run backtests, setups and books, compare runs and read market data in your Strategy Terminal. Connecting opens the terminal in your browser to sign in; the app then acts as you, with the access you allow.",
+    "developerName": "Strategy Terminal",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://strategy.veeza.io",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg",
+    "defaultPrompt": [
+      "List my strategies and their latest backtest results",
+      "Backtest my EMA cross strategy on XAUUSD for the last three months",
+      "Compare my two most recent runs and explain the difference"
+    ],
+    "brandColor": "#2BB673"
+  }
+}

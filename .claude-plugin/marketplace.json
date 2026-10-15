@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "strategy-terminal",
+  "metadata": {
+    "description": "The Strategy Terminal for Claude: strategies, backtests and market data over MCP, with a browser sign-in."
+  },
+  "owner": {
+    "name": "Strategy Terminal"
+  },
+  "plugins": [
+    {
+      "name": "strategy-terminal",
+      "description": "Write trading strategies, run backtests and books, and read market data in the Strategy Terminal.",
+      "author": {
+        "name": "Strategy Terminal"
+      },
+      "category": "productivity",
+      "source": "./plugins/strategy-terminal"
+    }
+  ]
+}

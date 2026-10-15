@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "strategy-terminal": {
+      "type": "http",
+      "url": "https://strategy.veeza.io/api/mcp"
+    }
+  }
+}

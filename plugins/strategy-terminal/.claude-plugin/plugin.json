@@ -1,0 +1,12 @@
+{
+  "name": "strategy-terminal",
+  "version": "1.0.0",
+  "description": "Write trading strategies, run backtests and books, and read market data in the Strategy Terminal. Sign in with your terminal account the first time a tool is used.",
+  "author": {
+    "name": "Strategy Terminal"
+  },
+  "homepage": "https://strategy.veeza.io",
+  "repository": "https://github.com/Ninga-2142/mcp",
+  "keywords": ["trading", "backtesting", "strategies", "market data", "mcp"],
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "strategy-terminal",
+  "interface": {
+    "displayName": "Strategy Terminal"
+  },
+  "plugins": [
+    {
+      "name": "strategy-terminal",
+      "source": {
+        "source": "local",
+        "path": "./plugins/strategy-terminal"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
